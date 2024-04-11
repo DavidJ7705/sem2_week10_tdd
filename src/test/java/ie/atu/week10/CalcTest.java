@@ -22,4 +22,9 @@ public class CalcTest {
         newCalc = new Calc();
         assertEquals(3, newCalc.div(18,6));
     }
+    @Test
+    void testMul(){
+        newCalc = new Calc();
+        assertEquals(77, newCalc.mul(7,11));
+    }
 }
