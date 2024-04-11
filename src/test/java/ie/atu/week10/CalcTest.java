@@ -17,4 +17,9 @@ public class CalcTest {
         newCalc = new Calc();
         assertEquals(6, newCalc.sub(10,4));
     }
+    @Test
+    void testDiv(){
+        newCalc = new Calc();
+        assertEquals(3, newCalc.div(18,6));
+    }
 }
